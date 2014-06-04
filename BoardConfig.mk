@@ -13,6 +13,9 @@ ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/codina/bluetooth
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/codina/rootdir/fstab.samsungcodina
 
