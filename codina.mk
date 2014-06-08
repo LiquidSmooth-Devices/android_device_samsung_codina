@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/adm.sqlite-u8500:system/etc/adm.sqlite-u8500
+    
+#common build.props
+PRODUCT_PROPERTY_OVERRIDES += \
+otaupdater.otaid=liquidcodina
 
 # Gps
 PRODUCT_COPY_FILES += \
