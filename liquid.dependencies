@@ -39,14 +39,14 @@
     "remote": "aosp",
     "revision": "master",
     "repository": "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
     "groups": "pdk,linux,arm"
    },
    {
     "remote": "aosp",
     "revision": "master",
     "repository": "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8",
     "groups": "pdk,linux,arm"
    }
 ]
